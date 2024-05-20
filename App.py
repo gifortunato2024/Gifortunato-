@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv("arquivo.csv")
-
-grafico = plt.plot(df["Country"], df["Financial allocations($ billion)"])
-st.pyplot(grafico)
+st.dataframe(df)
+fig,ax=plot.subplots()
+ax.bar(df["Country"],df["Financial allocations($ billion)"]
+st.pyplot(fig)
