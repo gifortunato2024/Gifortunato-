@@ -5,5 +5,5 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("arquivo.csv")
 st.dataframe(df)
 fig,ax=plot.subplots()
-ax.bar(df["Country"],df["Financial allocations($ billion)"]
+ax.bar(df["Country"],df["Financial allocations($ billion)"])
 st.pyplot(fig)
